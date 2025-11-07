@@ -92,6 +92,38 @@ function App() {
             borderRadius: "10px",
         },
         addButton: {
-            
-        }
-}
+            background: "#4CAF50",
+            color: "#fff",
+            bordet: "none",
+            borderRadius: "10px",
+            padding: "10px 15px",
+            cursor: "pointer",
+        },
+        list: {
+            listStyle: "none",
+            padding: 0,
+            marginTop: "20px",
+        },
+        listItem: {
+            display: flex;
+            justifyContent: "space-between",
+            alignments: "center",
+            background: "#f8f8f8",
+            borderRadius: "10px",
+            padding: "10px",
+            marginBottom: "10px",
+        },
+        taskText: {
+            cursor: "pointer",
+            flex: 1,
+        },
+        deleteBtn: {
+            background: "transparent",
+            border: "none",
+            color; "red",
+            fontSize: "18px",
+            cursor: "pointer",
+        },
+};
+
+export defaultApp;
