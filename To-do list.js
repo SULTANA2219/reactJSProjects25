@@ -1,3 +1,10 @@
+//npm install -g create-react-app
+/*npm create-react-app todo-app
+cd todo-app
+npm start*/
+//run: npm start
+
+
 import React, {useState} from "react";
 
 function App() {
