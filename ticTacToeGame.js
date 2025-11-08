@@ -56,4 +56,17 @@ const handleClick = (index) => {
 }
 
 export default App;
-  
+
+
+/*
+App.css
+const styles: {
+.board: {
+display: "grid",
+grid-template-columns: "repeat (3, 100px)",
+},
+.square: {
+width: "100px",
+height: "100px",
+fontSize: "24px",
+},
