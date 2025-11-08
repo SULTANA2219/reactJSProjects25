@@ -33,6 +33,11 @@ function App() {
 }
 
 const styles={
+  body: {
+    background: "linear-grqdient(to bottom. #87ceeb, #f0f8ff)",
+    margin: "0",
+    padding: "0",
+  },
   container: {
     textAlign: "center",
     fontFamily: "Poppins, sans-serif",
@@ -55,4 +60,26 @@ const styles={
   },
   image: {
     width: "100%",
-    
+    height: "250px",
+    objectFit: "cover",
+    display: "block",
+    transition: "transform 0.3s",
+  },
+};
+
+styles.card[':hover']={
+  transform: "scale(1.05)",
+  boxShadow: "0 6px 15px rgba(0, 0, 0, 0.2)",
+};
+
+export default App;
+
+//npm start
+//Open http://localhost:3000
+/*
+Upgrade feature:
+1) Click to open fullscreen (lightbox style)
+2) Add filter buttons by category
+3) Add search bar to find an image
+4) Load images dynamically from an API (e.g., Unsplash API)
+*/
