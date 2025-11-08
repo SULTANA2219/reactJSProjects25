@@ -59,6 +59,19 @@ function Calculator() {
                                     else if(btn==='C') handleClear();
                                     else handleOperator(btn);
                                    }}
+style = {{ width: '40px', height: '40px', margin: '2px'}}
+>
+{btn}
+</button>
+))}
+<button onClick={handleClear}
+style={{ width: '40px', height: '40px', margin: '2px' }}>C</button>
+  </div>
+  </div>
+);
+}
+
+export default Calculator;
 
                                                                   
         
